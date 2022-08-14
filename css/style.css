@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: url(../img/9846.jpg);
+    width: 100%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(176, 176, 176, 0.325);
+    text-align: center;
+
+}
+
+
+img {
+
+    width: 55px;
+}
+
+.banner {
+    width: 800px;
+    height: 450px;
+    text-align: center;
+    margin-left: 355px;
+}
+
+.ubicacions {
+
+    background: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tittle-tres {
+
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 0px;
+    background-image: url(../multimedia/imag/ubicacion.webp);
+
+
+
+}
+
+iframe {
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    background: url(../multimedia/imag/ff.jpg);
+    text-align: center;
+
+}
+
+.dire {
+    font-size: 25px;
+    color: azure;
+    text-align: center;
+    background-color: #ed5b8784;
+}
+
+footer{
+
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: azure; 
+    list-style: none;
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.688);
+
+}
+
+footer a {
+    text-decoration: none;
+    margin: 40px;
+    color: azure;
+    list-style: none;
+    list-style: none;
+    width: 100%; }
+

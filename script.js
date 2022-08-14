@@ -1,32 +1,47 @@
-// Operador ternario
+const tableId = document.getElementById("tableId")
+const boton1 = document.getElementById("boton1")
 
-// if(1 < 5 ){
-//  console.log("es menor");
-//  } else {
-// console.log("es mayor")
-//    }
-
-
-(1 < 5) && true ?
-    (true || false) ? console.log("Se cumplo la segunda condicion") : console.log("No se cumplio nada") :
-    console.log("Es mayor")
-
-
-// Speread 
-
-
-console.clear();
-
-const lista1 = [1, 2, 3];
-const lista2 = [4, 5, 6];
-
-function suma(...numeros) {
-    numeros = [1, 2, 3, 5, 67, 84, 6, 75, 69, 96];
-    const resultado = numeros.reduce(
-        (prevValue, nextValue) => prevValue + nextValue,
-        0
-    );
-    console.log(resultado);
+async function mostrarProductos() {
+    const productos = await fetch('./json/productos.json')
+    const productosParseados = await productos.json()
+    tableId.innerHTML = `
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Imagen</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+            <tbody id="tBody">
+            </tbody>
+        </table>
+    
+    `
+    productosParseados.forEach((producto, indice) => {
+        tBody.innerHTML += `
+            <tr id="producto${indice + 1}">
+                <th scope="row">${indice + 1}</th>
+                <td>${producto.nombre}</td>
+                <td>${producto.marca}</td>
+                <td>${producto.modelo}</td>
+                <td>${producto.precio}</td>
+                <td>${producto.stock}</td>
+                <td><img src="./img/${producto.img}"></td>
+                <td><button class="btn btn-dark"> Comprar </button>
+            </tr>
+        `
+    })
 }
 
-suma(1, 2, 3, 5, 67, 84, 6, 75, 69, 96);
+
+boton1.addEventListener('click', mostrarProductos)
+
+boton1.addEventListener('click', () => {
+    mostrarProductos()
+})

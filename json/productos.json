@@ -1,0 +1,113 @@
+[
+    {
+        "nombre": "Notebook",
+        "marca": "Lenovo",
+        "modelo": "Y510P",
+        "precio": 60000,
+        "stock": 30,
+        "img": "notebook-lenovo.jpg"
+    },
+    {
+        "nombre": "Celular",
+        "marca": "Xiomi",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "xiaomi-mi-9.jpg"
+    },
+    {
+        "nombre": "Smart Tv",
+        "marca": "Novatech",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "smart-tv-novatech.jpg"
+    },
+    {
+        "nombre": "Camara Deportiva",
+        "marca": "iQual",
+        "modelo": "C40",
+        "precio": 8000,
+        "stock": 30,
+        "img": "camara-iqual.jpg"
+    },
+    {
+        "nombre": "Mouse",
+        "marca": "Logitech",
+        "modelo": "G502",
+        "precio": 1400,
+        "stock": 7,
+        "img": "mouse-logitech.jpg"
+    },
+    {
+        "nombre": "Auriculares",
+        "marca": "Motorola",
+        "modelo": "Pulse Escape",
+        "precio": 4000,
+        "stock": 20,
+        "img": "motorola-pulse.jpg"
+    },
+    {
+        "nombre": "iPhone",
+        "marca": "Apple",
+        "modelo": "X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "iphone-x.jpg"
+    },
+    {
+        "nombre": "Apple TV",
+        "marca": "Apple ",
+        "modelo": "32 Gb",
+        "precio": 45000,
+        "stock": 30,
+        "img": "apple-tv.jpg"
+    },
+    {
+        "nombre": "Parlante",
+        "marca": "Kalley",
+        "modelo": "SPK200",
+        "precio": 34000,
+        "stock": 21,
+        "img": "parlante-kalley.png"
+    },
+    {
+        "nombre": "Mac",
+        "marca": "Apple",
+        "modelo": "Air",
+        "precio": 13000,
+        "stock": 25,
+        "img": "mac-air.jpg"
+    },
+    {
+        "nombre": "Iphone 13 Pro Max",
+        "marca": "Iphone",
+        "modelo": "13 pro max",
+        "precio": 420000,
+        "stock": 8,
+        "img": "iphone 13 pro max.jpg"
+    },
+    {
+        "nombre": "Iphone 13 Pro",
+        "marca": "Iphone",
+        "modelo": "13 pro ",
+        "precio": 380000,
+        "stock": 16,
+        "img": "iphone 13 pro.jpg"
+    }, {
+        "nombre": "Iphone 13 ",
+        "marca": "Iphone",
+        "modelo": "13 ",
+        "precio": 320000,
+        "stock": 20,
+        "img": "iphone 13.jpg"
+    }, {
+        "nombre": "Samsung 80 Pulgadas",
+        "marca": "Iphone",
+        "modelo": "80 Pulgadas",
+        "precio": 1000000,
+        "stock": 4,
+        "img": "samsung-crystal-UHD.jpg"
+    }
+    
+]
